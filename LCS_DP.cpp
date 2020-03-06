@@ -6,7 +6,8 @@ char track[50][50];
 
 int main()
 {
-    string a = "stone",b="longest";
+    string a = "ABCBDAB", b ="BDCABA";
+    // string a = "stone",b="longest";
     // string a = "bd", b ="abcd";
     int n = a.size();
     int m = b.size();
@@ -58,5 +59,6 @@ int main()
 
         }
     }
+    cout << endl;
     return 0;
 }
